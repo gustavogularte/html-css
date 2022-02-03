@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: xqdl;
+    src: url('futura-light.otf') format('opentype');
+}
+
+body {
+    font-family: xqdl;
+    background-color: #ffffff;
+    color:#472d05;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    background-color: #472d05;
+    margin: 0px;
+    box-shadow: inset 1px 1px 3px 1px black;
+}
+
+a {
+    color: white;
+}
+
+.endereco {
+    color: white;
+    text-align: auto;
+    width: 150px;
+    margin: 10px 0px 10px 500px
+}
+
+h1 {
+    font-family: xqdl;
+    color: rgb(228, 228, 228);
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3em;
+    padding: 1px;
+}
+
+nav {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+nav > a {
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    padding: 50px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #f5c978;
+    text-shadow: 1px 1px 1px black
+}
+
+footer {
+    background-color: #221502;
+    height: 150px;
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
