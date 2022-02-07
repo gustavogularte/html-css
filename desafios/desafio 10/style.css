@@ -114,6 +114,11 @@ main a::after {
     content: '🔗';
 }
 
+main a:hover {
+    text-decoration: underline;
+    color: #1A5C37;
+}
+
 main img {
     width: 100%;
 }
@@ -182,3 +187,7 @@ footer  a {
 footer p {
     margin: 0px;
 }
+
+footer a:hover {
+    text-decoration: underline;
+    color: #83E1AD;
