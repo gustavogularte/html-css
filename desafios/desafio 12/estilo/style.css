@@ -55,17 +55,32 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2em
+    font-size: 3.5vw;
+    font-weight: bold;
 }
 
 section.imagem {
     background-color: rgb(43, 43, 43);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 7px 13px 4px rgb(0 0 0 / 34%);
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
