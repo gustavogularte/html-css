@@ -1,0 +1,7 @@
+grid
+
+https://www.origamid.com/slide/html-e-css-para-iniciantes/#/0303-align-e-justify-content/2
+
+https://www.origamid.com/projetos/grid/
+
+https://www.origamid.com/projetos/css-grid-layout-guia-completo/
